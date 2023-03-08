@@ -13,13 +13,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { TaskquizComponent } from './components/taskquiz/taskquiz.component';
 import { TrendingComponent } from './components/trending/trending.component';
-import { CreateComponent } from './create/create.component';
+import { CreateComponent } from './components/create/create.component';
+import { AnswerInputComponent } from './components/create/answer-input/answer-input.component';
+import { QuestionListItemComponent } from './components/create/question-list-item/question-list-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateComponent,
-    
+    AnswerInputComponent,
+    QuestionListItemComponent,
   ],
   imports: [
     BrowserModule,
